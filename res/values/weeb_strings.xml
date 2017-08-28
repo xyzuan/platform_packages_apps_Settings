@@ -6,6 +6,9 @@
     <string name="weeb_settings_dash_title">WeebsX `ウィーブス</string>
     <string name="weeb_settings_summary">moar onichan featuress</string>
 
+    <!-- Advanced powermenu -->
+    <string name="global_actions_title">Power menu</string>
+
     <!-- Device Codename -->
     <string name="about_device_name">Device `デバイス</string>
 
