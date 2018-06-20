@@ -12,6 +12,8 @@
     <!-- Hardware Information -->
     <string name="hardware_information">Hardware information</string>
     <string name="hardware_information_summary">Information about hardware</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">RAM</string>
 
     <!-- SELinux status -->
     <string name="selinux_status">SELinux status</string>
