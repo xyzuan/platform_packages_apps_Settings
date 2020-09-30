@@ -46,7 +46,7 @@
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">Wireless &amp; networks</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
-    <string name="header_category_system">System</string>
+    <string name="header_category_system">System `システム</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_in">In Service</string>
@@ -663,9 +663,9 @@
     <string name="show_profile_info_on_lockscreen_label">Show profile info on lock screen</string>
 
     <!-- Main Settings screen setting option title for the item to take you to the Accounts screen [CHAR LIMIT=22] -->
-    <string name="Accounts_settings_title">Accounts</string>
+    <string name="Accounts_settings_title">Accounts `アカウント</string>
     <!-- Main Settings screen setting option title for the item to take you to the location screen -->
-    <string name="location_settings_title">Location</string>
+    <string name="location_settings_title">Location `ロケーション</string>
     <!-- Used in the location settings to control turning on/off the feature entirely -->
     <string name="location_settings_master_switch_title">Use location</string>
     <!-- Summary for Location settings when location is off [CHAR LIMIT=NONE] -->
@@ -681,7 +681,7 @@
     <!-- Main Settings screen setting option title for the item to take you to the accounts screen [CHAR LIMIT=22] -->
     <string name="account_settings_title">Accounts</string>
     <!-- Main Settings screen setting option title for the item to take you to the security screen -->
-    <string name="security_settings_title">Security</string>
+    <string name="security_settings_title">Security `セキュリティ</string>
     <!-- Security Settings screen setting option title for the item to take you to the encryption and credential screen -->
     <string name="encryption_and_credential_settings_title">Encryption &amp; credentials</string>
     <!-- Security Settings screen Encryption and crendential summary -->
@@ -2039,7 +2039,7 @@
     <!-- Label for the spinner to show ip settings [CHAR LIMIT=25] -->
     <string name="wifi_ip_settings">IP settings</string>
     <!-- Label for the spinner to show Wifi MAC randomization [CHAR LIMIT=25] -->
-    <string name="wifi_privacy_settings">Privacy</string>
+    <string name="wifi_privacy_settings">Privacy `プライバシー</string>
     <!-- Label for the subscription preference. [CHAR LIMIT=32] -->
     <string name="wifi_subscription">Subscription</string>
     <!-- Summary text for the subscription preference. [CHAR LIMIT=NONE] -->
@@ -2560,7 +2560,7 @@
     <skip/>
     <string name="display_settings_title">Display</string>
     <!-- Sound settings screen heading -->
-    <string name="sound_settings">Sound</string>
+    <string name="sound_settings">Sound `音</string>
     <!-- DO NOT TRANSLATE Summary placeholder -->
     <string name="summary_placeholder" translatable="false">&#160;</string>
     <!-- DO NOT TRANSLATE Summary placeholder reserving 2 lines -->
@@ -2670,7 +2670,7 @@
 
     <!-- Display settings --><skip/>
     <!-- Sound & display settings screen, section header for settings related to display -->
-    <string name="display_settings">Display</string>
+    <string name="display_settings">Display `電池</string>
     <!-- Sound & display settings screen, accelerometer-based rotation check box label -->
     <string name="accelerometer_title">Auto-rotate screen</string>
     <!-- Display settings screen, Color mode settings title [CHAR LIMIT=30] -->
@@ -3049,9 +3049,9 @@
     <string name="system_update_settings_list_item_summary">""</string>
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="firmware_version">Android version</string>
+    <string name="firmware_version">Android ver `バージョン</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
-    <string name="security_patch">Android security update</string>
+    <string name="security_patch">Android security `パッチ</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="model_info">Model</string>
     <!-- About phone screen, status item summary  [CHAR LIMIT=40] -->
@@ -3063,9 +3063,9 @@
     <!-- About phone screen, fcc equipment id label  [CHAR LIMIT=40] -->
     <string name="fcc_equipment_id">Equipment ID</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="baseband_version">Baseband version</string>
+    <string name="baseband_version">Baseband ver `バージョン</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="kernel_version">Kernel version</string>
+    <string name="kernel_version">Kernel ver `バージョン</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build number</string>
     <!-- About phone screen, tapping this button will take user to a seperate UI to check Google Play system update [CHAR LIMIT=60] -->
@@ -3082,7 +3082,7 @@
     <!-- About phone screen, summary of the item to go into the phone status screen -->
     <string name="device_status_summary" product="default">Phone number, signal, etc.</string>
     <!-- Main settings screen item's title to go into the storage settings screen [CHAR LIMIT=25] -->
-    <string name="storage_settings" >Storage</string>
+    <string name="storage_settings" >Storage `ストレージ</string>
     <!-- Settings title that shows user how much storage and cache space an App is taking [CHAR LIMIT=50] -->
     <string name="storage_settings_for_app" >Storage &amp; cache</string>
     <!-- Main settings screen item's title to go into the storage & USB settings screen [CHAR LIMIT=25] -->
@@ -3094,7 +3094,7 @@
     <!-- [CHAR LIMIT=100] Main settings screen item's summary for the SD card and storage settings -->
     <string name="storage_settings_summary" product="default">Unmount SD card, view available storage</string>
     <!-- About phone screen, title for IMEI for multi-sim devices -->
-    <string name="imei_multi_sim">IMEI (sim slot %1$d)</string>
+    <string name="imei_multi_sim">IMEI (Slot %1$d)</string>
     <!-- About phone screen, summary of the MAC address [CHAR LIMIT=80] -->
     <string name="view_saved_network">To view, choose saved network</string>
     <!-- Do not translate. About phone, status item title -->
@@ -4010,17 +4010,17 @@
 
     <!-- About --> <skip />
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings" product="tablet">About tablet</string>
+    <string name="about_settings" product="tablet">About tablet `タブレット</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings" product="default">About phone</string>
+    <string name="about_settings" product="default">About phone `電話</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
-    <string name="about_settings" product="device">About device</string>
+    <string name="about_settings" product="device">About device `デバイス</string>
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
     <string name="about_settings" product="emulator">About emulated device</string>
     <!-- Main settings screen, setting summary for the user to go into the About phone screen-->
     <string name="about_settings_summary">View legal info, status, software version</string>
     <!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
-    <string name="legal_information">Legal information</string>
+    <string name="legal_information">Legal info `プロフィール</string>
     <!-- About phone settings screen, setting option name to see a list of contributors -->
     <string name="contributors_title">Contributors</string>
     <!-- About phone settings screen, setting option name to show Manual [CHAR LIMIT=25] -->
@@ -4872,7 +4872,7 @@
     <skip />
 
     <!-- Settings title in main settings screen for accessibility settings -->
-    <string name="accessibility_settings">Accessibility</string>
+    <string name="accessibility_settings">Accessibility `アクセシビリティ</string>
     <!-- Settings title for accessibility settings screen -->
     <string name="accessibility_settings_title">Accessibility settings</string>
     <!-- Summary for Accessibility settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
@@ -5516,7 +5516,7 @@
     <skip />
 
     <!-- Activity title for App Fuel Gauge summary -->
-    <string name="power_usage_summary_title">Battery</string>
+    <string name="power_usage_summary_title">Battery `電池</string>
     <!-- Activity title summary for App Fuel Gauge summary -->
     <string name="power_usage_summary">What has been using the battery</string>
     <!-- Message to show when battery usage data is not available [CHAR LIMIT=30] -->
@@ -7026,7 +7026,7 @@
     <!-- Message for confirmation of turning on calls and SMS [CHAR LIMIT=none] -->
     <string name="user_enable_calling_and_sms_confirm_message">Call and SMS history will be shared with this user.</string>
     <!-- Title for the emergency info preference [CHAR LIMIT=40] -->
-    <string name="emergency_info_title">Emergency information</string>
+    <string name="emergency_info_title">Emergency info `プロフィール</string>
     <!-- Summary for the emergency info preference [CHAR LIMIT=40] -->
     <string name="emergency_info_summary">Info &amp; contacts for <xliff:g id="user_name" example="Jason">%1$s</xliff:g></string>
 
@@ -7452,9 +7452,9 @@
     <!-- Message informing the user that no SIM card is inserted  [CHAR LIMIT=60] -->
     <string name="sim_no_inserted_msg">No SIM cards inserted</string>
     <!-- SIM status title  [CHAR LIMIT=40] -->
-    <string name="sim_status_title">SIM status</string>
+    <string name="sim_status_title">SIM status `状態</string>
     <!-- SIM status title  [CHAR LIMIT=40] -->
-    <string name="sim_status_title_sim_slot">SIM status (sim slot %1$d)</string>
+    <string name="sim_status_title_sim_slot">SIM `状態 (Slot %1$d)</string>
     <!-- Title for call back. [CHAR LIMIT=60] -->
     <string name="sim_call_back_title">Call back from default SIM</string>
     <!-- Title for outgoing back. [CHAR LIMIT=60] -->
@@ -7493,7 +7493,7 @@
     </plurals>
 
     <!-- Title for setting tile leading to network and Internet settings [CHAR LIMIT=40]-->
-    <string name="network_dashboard_title">Network &amp; internet</string>
+    <string name="network_dashboard_title">Network Settings `インターネット</string>
     <!-- Summary for Network and Internet settings, explaining it contains mobile network setting [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile">mobile</string>
     <!-- Summary for Network and Internet settings, explaining it contains network data usage setting [CHAR LIMIT=NONE]-->
@@ -7502,7 +7502,7 @@
     <string name="network_dashboard_summary_hotspot">hotspot</string>
 
     <!-- Title for setting tile leading to Connected devices settings [CHAR LIMIT=40]-->
-    <string name="connected_devices_dashboard_title">Connected devices</string>
+    <string name="connected_devices_dashboard_title">Connected devices `端末</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="connected_devices_dashboard_summary">Bluetooth, driving mode, NFC</string>
     <!-- Summary for Connected devices settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
@@ -7524,7 +7524,7 @@
     <!-- Summary for Tap & pay settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="nfc_and_payment_settings_no_payment_installed_summary">To use, first install a payment app</string>
     <!-- Title for setting tile leading to Apps & Notification settings [CHAR LIMIT=40]-->
-    <string name="app_and_notification_dashboard_title">Apps &amp; notifications</string>
+    <string name="app_and_notification_dashboard_title">Application &amp; notif `アプリの通知</string>
     <!-- Summary for Apps & Notification settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="app_and_notification_dashboard_summary">Recent apps, default apps</string>
     <!-- Toast shown when an app in the work profile attempts to open notification settings. The apps in the work profile cannot access notification settings. [CHAR LIMIT=NONE] -->
@@ -11373,7 +11373,7 @@
     <!-- Title for preference showing the primary account on the device [CHAR LIMIT=60]-->
     <string name="my_device_info_account_preference_title">Account</string>
     <!-- Title for preference showing the name of the device. [CHAR LIMIT=60]-->
-    <string name="my_device_info_device_name_preference_title">Device name</string>
+    <string name="my_device_info_device_name_preference_title">Device name `名前</string>
 
     <!-- Title for Wifi Access settings [CHAR LIMIT=35] -->
     <string name="change_wifi_state_title">Wi-Fi control</string>
