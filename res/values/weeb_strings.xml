@@ -2,15 +2,19 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- WeebCafe Settings -->
+    <string name="weeb_settings_dash_title">WeebCafe</string>
+    <string name="weeb_settings_summary">moar onichan featuress</string>
+
     <!-- Device Codename -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Device `デバイス</string>
 
     <!-- Firmware Information -->
-    <string name="firmware_information">Firmware information</string>
+    <string name="firmware_information">Firmware info `詳細はこちら</string>
     <string name="firmware_information_summary">Information about system firmware</string>
 
     <!-- Hardware Information -->
-    <string name="hardware_information">Hardware information</string>
+    <string name="hardware_information">Hardware info `詳細はこちら</string>
     <string name="hardware_information_summary">Information about hardware</string>
     <string name="platform_revision">Platform</string>
     <string name="total_ram">RAM</string>
@@ -22,6 +26,6 @@
     <string name="selinux_status_enforcing">Enforcing</string>
 
     <!-- Streak version -->
-    <string name="weeb_version">WeebProjekt version</string>
+    <string name="weeb_version">WeebProjekt ver `バージョン</string>
 
 </resources>
