@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo;
+package com.android.settings.deviceinfo.hardwareinfo;
 
 import android.content.Context;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.settingslib.deviceinfo.AbstractIpAddressPreferenceController;
+import com.android.settingslib.deviceinfo.AbstractWifiMacAddressPreferenceController;
 
 /**
- * Concrete subclass of IP address preference controller
+ * Concrete subclass of WIFI MAC address preference controller
  */
-public class IpAddressPreferenceController extends AbstractIpAddressPreferenceController implements
-        PreferenceControllerMixin {
-    public IpAddressPreferenceController(Context context, Lifecycle lifecycle) {
+public class WifiMacAddressPreferenceController extends AbstractWifiMacAddressPreferenceController
+        implements PreferenceControllerMixin {
+    public WifiMacAddressPreferenceController(Context context, Lifecycle lifecycle) {
         super(context, lifecycle);
     }
 
     @Override
     public boolean isAvailable() {
-        return mContext.getResources().getBoolean(R.bool.config_show_wifi_ip_address);
+        return mContext.getResources().getBoolean(R.bool.config_show_wifi_mac_address);
     }
 
     // This space intentionally left blank

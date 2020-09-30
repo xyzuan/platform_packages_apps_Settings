@@ -14,27 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo;
+package com.android.settings.deviceinfo.hardwareinfo;
 
 import android.content.Context;
 
-import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.settingslib.deviceinfo.AbstractWifiMacAddressPreferenceController;
+import com.android.settingslib.deviceinfo.AbstractBluetoothAddressPreferenceController;
 
 /**
- * Concrete subclass of WIFI MAC address preference controller
+ * Concrete subclass of bluetooth address preference controller
  */
-public class WifiMacAddressPreferenceController extends AbstractWifiMacAddressPreferenceController
-        implements PreferenceControllerMixin {
-    public WifiMacAddressPreferenceController(Context context, Lifecycle lifecycle) {
+public class BluetoothAddressPreferenceController extends
+        AbstractBluetoothAddressPreferenceController implements PreferenceControllerMixin {
+    public BluetoothAddressPreferenceController(Context context, Lifecycle lifecycle) {
         super(context, lifecycle);
-    }
-
-    @Override
-    public boolean isAvailable() {
-        return mContext.getResources().getBoolean(R.bool.config_show_wifi_mac_address);
     }
 
     // This space intentionally left blank

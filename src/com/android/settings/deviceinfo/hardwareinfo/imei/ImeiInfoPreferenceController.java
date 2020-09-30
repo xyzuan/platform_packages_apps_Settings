@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo.imei;
+package com.android.settings.deviceinfo.hardwareinfo.imei;
 
 import static android.telephony.TelephonyManager.PHONE_TYPE_CDMA;
 
