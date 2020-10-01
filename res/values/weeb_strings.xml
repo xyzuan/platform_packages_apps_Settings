@@ -3,7 +3,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- WeebCafe Settings -->
-    <string name="weeb_settings_dash_title">WeebCafe</string>
+    <string name="weeb_settings_dash_title">WeebsX `ウィーブス</string>
     <string name="weeb_settings_summary">moar onichan featuress</string>
 
     <!-- Device Codename -->
