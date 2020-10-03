@@ -371,6 +371,6 @@ public class DisplayCutoutForceFullscreenSettings extends SettingsPreferenceFrag
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.SYBERIA;
+        return MetricsEvent.WEEB;
     }
 }
