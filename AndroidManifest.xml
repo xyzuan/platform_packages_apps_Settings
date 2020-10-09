@@ -3407,29 +3407,26 @@
         <!-- WeebCafe -->
         <activity android:name=".Settings$WeebSettingsActivity"
             android:label="@string/weeb_settings_dash_title"
-            android:icon="@drawable/ic_settings_weeb"
-            android:taskAffinity="">
-            <intent-filter android:priority="1">
-                <action android:name="com.weeb.settings.WeebSettings" />
-                <category android:name="android.intent.category.DEFAULT" />
+            android:icon="@drawable/ic_homepage_weeb"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.weeb.settings.WeebSettings" />
+        </activity>
+
+        <!-- Global Actions -->
+        <activity android:name="Settings$PowermenuSettingsActivity"
+                  android:label="@string/global_actions_title"
+                  android:taskAffinity="com.android.settings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="-3">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.weeb.settings.WeebSettings" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
-            <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/weeb_settings_summary"/>
+                android:value="com.weeb.settings.fragments.PowermenuSettings" />
         </activity>
 
         <!-- Global Actions -->
