@@ -69,7 +69,8 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:layout_gravity="center_horizontal"
-                        android:text="@string/dashboard_title"/>  
+                        android:text="@string/dashboard_title"
+                        android:fontFamily="google-sans" />  
                 </FrameLayout>
 
                 <include layout="@layout/search_bar"/>
